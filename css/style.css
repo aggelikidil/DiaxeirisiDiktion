@@ -1,0 +1,166 @@
+html {
+	height: 99%;
+	width: 1108px;
+    margin: 0 auto;
+}
+
+body {
+	font-size: 0.9em;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 96%;
+	width: 100%;
+}
+
+#aheader{
+	color: #2929a3; font-weight: bold; text-decoration: underline; 
+}
+
+h1 {
+    margin: 0;
+	//font-size: 20px;
+}
+
+h2 {
+    margin: 0;
+	font-size: 16px;
+	color: black;
+	text-align: center;
+}
+
+h3 {
+    margin-top: 60px;
+	font-size: 16px;
+	text-align: center;
+	color: orange;
+}
+
+h4 {
+    margin: 0;
+	font-size: 16px;
+	color: red;
+}
+
+h5 {
+    margin: 0;
+	font-size: 16px;
+	color: green;
+}
+
+p{
+	text-align: justify;
+}
+
+#container {
+    overflow: auto;
+	width: 100%;
+	height: 93%;	
+}
+
+header {
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #7e86e7;
+    color:white;
+    text-align: center;
+    padding: 0.4%;
+	color: black;
+	float: left;
+	width: 1100px;
+	margin-bottom: 2px;
+}
+
+nav {
+	font-size: 0.8em;
+	padding: 0.5%;
+	clear:both;
+	text-align: center;
+	background: #eeeeee;
+	margin-bottom: 2px;
+}
+article {
+	display: flex;
+	width: 97%;
+	margin: 10px;
+	padding-top: 10px;
+	border: 3px solid #2929a3;
+	border-radius: 25px;
+}
+
+article:hover {
+	background-color: #f4f7ff;
+}
+
+#new_section {
+    clear: both;
+	flex-grow: 0;
+	padding: 1%;
+	margin-right: 5%;
+	width: 98%;
+}
+
+section {
+    float: right;
+	flex-grow: 0;
+	padding: 1%;
+	margin-right: 5%;
+	width: 80%;
+}
+
+aside {
+    line-height:30px;
+    flex-grow: 0;
+    float:left;
+	text-align: center;
+	vertical-align: bottom;
+    margin-top: 80px;
+	padding-left:1%;
+	padding-right:1%;
+	width: 13%;
+}
+
+footer {
+    background-color: #2929a3;
+    color:white;
+    clear:both;
+    text-align:center;
+	padding: 0.2%;
+	font-size: 0.8em;
+	height: 15px;
+}
+
+table {
+    text-align: center;
+	border: 1px solid black;
+	width: 80%;
+    border-collapse: collapse;
+	background: white;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+table th{
+	border: 1px solid black;
+    background-color: #2929a3;
+	color: white;
+	font-size: 13px;
+}
+
+table tr:nth-child(odd) {
+	border: 1px solid black;
+    background-color: #eee;
+}
+table tr:nth-child(even) {
+	border: 1px solid black;
+    background-color: #fff;
+}
+table tr:hover{
+background-color: #fff4ea;
+}
+table td {
+	border: 1px solid black;
+}
+
+table a{color:#0047b3;text-decoration:none}
+table a:hover{text-decoration:underline}
